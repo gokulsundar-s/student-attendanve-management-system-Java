@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="780.0" prefWidth="1478.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.student_attendance_management_system.mainpage_page1_controller">
+   <children>
+      <ImageView fitHeight="895.0" fitWidth="1548.0" layoutX="-5.0" layoutY="-19.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Admin.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="512.0" layoutY="1.0" text="KONGU ENGINEERING COLLEGE">
+         <font>
+            <Font name="Calibri Bold" size="40.0" />
+         </font>
+      </Label>
+      <Label layoutX="582.0" layoutY="54.0" text="PERUNDURAI, ERODE - 638060.">
+         <font>
+            <Font name="Calibri" size="30.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="118.0" fitWidth="160.0" layoutX="386.0" layoutY="1.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Icon.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="116.0" fitWidth="101.0" layoutX="1040.0" layoutY="1.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Icon2.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="addat" layoutX="347.0" layoutY="261.0" mnemonicParsing="false" onAction="#add" prefHeight="122.0" prefWidth="319.0" style="-fx-background-color: #282828;" text="ADD ATTENDANCE" textFill="WHITE">
+         <font>
+            <Font name="Calibri Bold" size="30.0" />
+         </font>
+      </Button>
+      <Button fx:id="edat" layoutX="897.0" layoutY="261.0" mnemonicParsing="false" onAction="#edit" prefHeight="122.0" prefWidth="314.0" style="-fx-background-color: #282828;" text="EDIT ATTENDANCE" textFill="WHITE">
+         <font>
+            <Font name="Calibri Bold" size="30.0" />
+         </font>
+      </Button>
+      <Button fx:id="delat" layoutX="347.0" layoutY="501.0" mnemonicParsing="false" onAction="#delete" prefHeight="122.0" prefWidth="319.0" style="-fx-background-color: #282828;" text="DELETE ATTENDANCE" textFill="WHITE">
+         <font>
+            <Font name="Calibri Bold" size="30.0" />
+         </font>
+      </Button>
+      <Button fx:id="gere" layoutX="897.0" layoutY="501.0" mnemonicParsing="false" onAction="#repo" prefHeight="122.0" prefWidth="314.0" style="-fx-background-color: #282828;" text="GENERATE REPORT" textFill="WHITE">
+         <font>
+            <Font name="Calibri Bold" size="30.0" />
+         </font>
+      </Button>
+      <Button fx:id="dologout" layoutX="1424.0" layoutY="17.0" mnemonicParsing="false" onAction="#goout" style="-fx-background-color: red;" text="LOGOUT" textFill="WHITE">
+         <font>
+            <Font name="Calibri Bold" size="20.0" />
+         </font>
+      </Button>
+      <Button fx:id="back" layoutX="14.0" layoutY="10.0" mnemonicParsing="false" onAction="#out" style="-fx-background-color: #282828;" text="BACK" textFill="WHITE">
+         <font>
+            <Font name="Calibri Bold" size="20.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

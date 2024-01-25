@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="780.0" prefWidth="1380.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.student_attendance_management_system.server_page1_edituser_controller">
+   <children>
+      <ImageView fitHeight="826.0" fitWidth="1578.0" layoutX="-4.0" layoutY="-4.0" pickOnBounds="true">
+         <image>
+            <Image url="@Admin2.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="562.0" layoutY="11.0" text="KONGU ENGINEERING COLLEGE">
+         <font>
+            <Font name="Calibri Bold" size="40.0" />
+         </font>
+      </Label>
+      <Label layoutX="632.0" layoutY="64.0" text="PERUNDURAI, ERODE - 638060.">
+         <font>
+            <Font name="Calibri" size="30.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="118.0" fitWidth="160.0" layoutX="426.0" layoutY="11.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Icon.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="116.0" fitWidth="101.0" layoutX="1090.0" layoutY="11.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Icon2.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="733.0" layoutY="110.0" text="EDIT USER" textFill="#282828">
+         <font>
+            <Font name="Calibri Bold Italic" size="40.0" />
+         </font>
+      </Label>
+      <Label layoutX="509.0" layoutY="332.0" text="FIRST NAME :" textFill="#282828">
+         <font>
+            <Font name="Calibri Bold" size="41.0" />
+         </font>
+      </Label>
+      <TextField fx:id="edfn" layoutX="783.0" layoutY="320.0" prefHeight="49.0" prefWidth="361.0" promptText="FIRSTNAME" style="-fx-background-color: TRANSPARENT; -fx-border-color: #282828; -fx-border-width: 0PX 0PX 2PX 0PX;">
+         <font>
+            <Font name="Calibri Bold" size="25.0" />
+         </font>
+      </TextField>
+      <Label layoutX="519.0" layoutY="448.0" text="LAST NAME :" textFill="#282828">
+         <font>
+            <Font name="Calibri Bold" size="41.0" />
+         </font>
+      </Label>
+      <TextField fx:id="edln" layoutX="782.0" layoutY="438.0" prefHeight="49.0" prefWidth="361.0" promptText="LASTNAME" style="-fx-background-color: TRANSPARENT; -fx-border-color: #282828; -fx-border-width: 0PX 0PX 2PX 0PX;">
+         <font>
+            <Font name="Calibri Bold" size="25.0" />
+         </font>
+      </TextField>
+      <Button fx:id="backbut" layoutX="16.0" layoutY="13.0" mnemonicParsing="false" onAction="#backout" style="-fx-background-color: #282828;" text="BACK" textFill="WHITE">
+         <font>
+            <Font name="Calibri Bold Italic" size="20.0" />
+         </font>
+      </Button>
+      <Button fx:id="submit" layoutX="750.0" layoutY="724.0" mnemonicParsing="false" onAction="#saveuser" style="-fx-background-color: #282828;" text="SUBMIT" textFill="WHITE">
+         <font>
+            <Font name="Calibri Bold Italic" size="24.0" />
+         </font>
+      </Button>
+      <Button fx:id="ok" layoutX="977.0" layoutY="208.0" mnemonicParsing="false" onAction="#gosave" style="-fx-background-color: #282828;" text="OK" textFill="WHITE">
+         <font>
+            <Font name="Calibri Bold Italic" size="24.0" />
+         </font>
+      </Button>
+      <Label layoutX="349.0" layoutY="211.0" text="MAIL ID :" textFill="#282828">
+         <font>
+            <Font name="Calibri Bold" size="41.0" />
+         </font>
+      </Label>
+      <TextField fx:id="edml" layoutX="532.0" layoutY="203.0" prefHeight="50.0" prefWidth="413.0" promptText="MAIL ID" style="-fx-background-color: TRANSPARENT; -fx-border-color: #282828; -fx-border-width: 0PX 0PX 2PX 0PX;">
+         <font>
+            <Font name="Calibri Bold" size="25.0" />
+         </font>
+      </TextField>
+      <Label fx:id="erms" layoutX="1090.0" layoutY="213.0" prefHeight="42.0" prefWidth="419.0" textFill="#282828">
+         <font>
+            <Font name="Calibri Bold" size="35.0" />
+         </font>
+      </Label>
+      <Label fx:id="smsg" layoutX="647.0" layoutY="584.0" prefHeight="35.0" prefWidth="312.0" textFill="#282828">
+         <font>
+            <Font name="Calibri Bold" size="30.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

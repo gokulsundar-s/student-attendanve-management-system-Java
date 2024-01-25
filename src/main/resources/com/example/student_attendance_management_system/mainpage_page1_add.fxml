@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="780.0" prefWidth="1380.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.student_attendance_management_system.mainpage_page1_add_controller">
+   <children>
+      <ImageView fitHeight="923.0" fitWidth="1576.0" layoutX="-2.0" layoutY="-3.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Admin.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="522.0" layoutY="11.0" text="KONGU ENGINEERING COLLEGE">
+         <font>
+            <Font name="Calibri Bold" size="40.0" />
+         </font>
+      </Label>
+      <Label layoutX="592.0" layoutY="64.0" text="PERUNDURAI, ERODE - 638060.">
+         <font>
+            <Font name="Calibri" size="30.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="118.0" fitWidth="160.0" layoutX="386.0" layoutY="11.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Icon.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="116.0" fitWidth="101.0" layoutX="1050.0" layoutY="11.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Icon2.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="633.0" layoutY="120.0" text="ADD ATTENDANCE" textFill="#282828">
+         <font>
+            <Font name="Calibri Bold Italic" size="40.0" />
+         </font>
+      </Label>
+      <Label layoutX="35.0" layoutY="172.0" prefHeight="46.0" prefWidth="128.0" text="DATE :" textFill="#282828">
+         <font>
+            <Font name="Calibri Bold" size="35.0" />
+         </font>
+      </Label>
+      <DatePicker fx:id="dte" layoutX="146.0" layoutY="177.0" prefHeight="38.0" prefWidth="230.0" promptText="MM/DD/YYYY" showWeekNumbers="true" style="-fx-border-color: #282828; -fx-border-width: 1PX 1PX 1PX 1PX; -fx-background-color: transparent;" />
+      <Label layoutX="335.0" layoutY="302.0" prefHeight="46.0" prefWidth="148.0" text="HOUR - 1 :" textFill="#282828">
+         <font>
+            <Font name="Calibri Bold" size="30.0" />
+         </font>
+      </Label>
+      <TextField fx:id="a1" layoutX="533.0" layoutY="306.0" promptText="HOUR - 1 ABSENT" style="-fx-background-color: TRANSPARENT; -fx-border-color: #282828; -fx-border-width: 0PX 0PX 2PX 0PX;">
+         <font>
+            <Font name="Calibri Bold" size="20.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="o1" layoutX="913.0" layoutY="306.0" promptText="HOUR - 1 ONDUTY" style="-fx-background-color: TRANSPARENT; -fx-border-color: #282828; -fx-border-width: 0PX 0PX 2PX 0PX;">
+         <font>
+            <Font name="Calibri Bold" size="20.0" />
+         </font>
+      </TextField>
+      <Label layoutX="335.0" layoutY="372.0" prefHeight="46.0" prefWidth="148.0" text="HOUR - 2 :" textFill="#282828">
+         <font>
+            <Font name="Calibri Bold" size="30.0" />
+         </font>
+      </Label>
+      <TextField fx:id="a2" layoutX="533.0" layoutY="376.0" promptText="HOUR - 2 ABSENT" style="-fx-background-color: TRANSPARENT; -fx-border-color: #282828; -fx-border-width: 0PX 0PX 2PX 0PX;">
+         <font>
+            <Font name="Calibri Bold" size="20.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="o2" layoutX="913.0" layoutY="376.0" promptText="HOUR - 2 ONDUTY" style="-fx-background-color: TRANSPARENT; -fx-border-color: #282828; -fx-border-width: 0PX 0PX 2PX 0PX;">
+         <font>
+            <Font name="Calibri Bold" size="20.0" />
+         </font>
+      </TextField>
+      <Label layoutX="335.0" layoutY="442.0" prefHeight="46.0" prefWidth="148.0" text="HOUR - 3 :" textFill="#282828">
+         <font>
+            <Font name="Calibri Bold" size="30.0" />
+         </font>
+      </Label>
+      <TextField fx:id="a3" layoutX="533.0" layoutY="446.0" promptText="HOUR - 3 ABSENT" style="-fx-background-color: TRANSPARENT; -fx-border-color: #282828; -fx-border-width: 0PX 0PX 2PX 0PX;">
+         <font>
+            <Font name="Calibri Bold" size="20.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="o3" layoutX="913.0" layoutY="446.0" promptText="HOUR - 3 ONDUTY" style="-fx-background-color: TRANSPARENT; -fx-border-color: #282828; -fx-border-width: 0PX 0PX 2PX 0PX;">
+         <font>
+            <Font name="Calibri Bold" size="20.0" />
+         </font>
+      </TextField>
+      <Label layoutX="335.0" layoutY="512.0" prefHeight="46.0" prefWidth="148.0" text="HOUR - 4 :" textFill="#282828">
+         <font>
+            <Font name="Calibri Bold" size="30.0" />
+         </font>
+      </Label>
+      <TextField fx:id="a4" layoutX="533.0" layoutY="516.0" promptText="HOUR - 4 ABSENT" style="-fx-background-color: TRANSPARENT; -fx-border-color: #282828; -fx-border-width: 0PX 0PX 2PX 0PX;">
+         <font>
+            <Font name="Calibri Bold" size="20.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="o4" layoutX="913.0" layoutY="516.0" promptText="HOUR - 4 ONDUTY" style="-fx-background-color: TRANSPARENT; -fx-border-color: #282828; -fx-border-width: 0PX 0PX 2PX 0PX;">
+         <font>
+            <Font name="Calibri Bold" size="20.0" />
+         </font>
+      </TextField>
+      <Label layoutX="335.0" layoutY="582.0" prefHeight="46.0" prefWidth="148.0" text="HOUR - 5 :" textFill="#282828">
+         <font>
+            <Font name="Calibri Bold" size="30.0" />
+         </font>
+      </Label>
+      <TextField fx:id="a5" layoutX="533.0" layoutY="586.0" promptText="HOUR - 5 ABSENT" style="-fx-background-color: TRANSPARENT; -fx-border-color: #282828; -fx-border-width: 0PX 0PX 2PX 0PX;">
+         <font>
+            <Font name="Calibri Bold" size="20.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="o5" layoutX="913.0" layoutY="586.0" promptText="HOUR - 5 ONDUTY" style="-fx-background-color: TRANSPARENT; -fx-border-color: #282828; -fx-border-width: 0PX 0PX 2PX 0PX;">
+         <font>
+            <Font name="Calibri Bold" size="20.0" />
+         </font>
+      </TextField>
+      <Label layoutX="335.0" layoutY="652.0" prefHeight="46.0" prefWidth="148.0" text="HOUR - 6 :" textFill="#282828">
+         <font>
+            <Font name="Calibri Bold" size="30.0" />
+         </font>
+      </Label>
+      <TextField fx:id="a6" layoutX="533.0" layoutY="656.0" promptText="HOUR - 6 ABSENT" style="-fx-background-color: TRANSPARENT; -fx-border-color: #282828; -fx-border-width: 0PX 0PX 2PX 0PX;">
+         <font>
+            <Font name="Calibri Bold" size="20.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="o6" layoutX="913.0" layoutY="656.0" promptText="HOUR - 6 ONDUTY" style="-fx-background-color: TRANSPARENT; -fx-border-color: #282828; -fx-border-width: 0PX 0PX 2PX 0PX;">
+         <font>
+            <Font name="Calibri Bold" size="20.0" />
+         </font>
+      </TextField>
+      <Label layoutX="335.0" layoutY="722.0" prefHeight="46.0" prefWidth="148.0" text="HOUR - 7 :" textFill="#282828">
+         <font>
+            <Font name="Calibri Bold" size="30.0" />
+         </font>
+      </Label>
+      <TextField fx:id="a7" layoutX="533.0" layoutY="726.0" promptText="HOUR - 7 ABSENT" style="-fx-background-color: TRANSPARENT; -fx-border-color: #282828; -fx-border-width: 0PX 0PX 2PX 0PX;">
+         <font>
+            <Font name="Calibri Bold" size="20.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="o7" layoutX="913.0" layoutY="726.0" promptText="HOUR - 7 ONDUTY" style="-fx-background-color: TRANSPARENT; -fx-border-color: #282828; -fx-border-width: 0PX 0PX 2PX 0PX;">
+         <font>
+            <Font name="Calibri Bold" size="20.0" />
+         </font>
+      </TextField>
+      <Label layoutX="575.0" layoutY="242.0" prefHeight="46.0" prefWidth="128.0" text="ABSENT" textFill="#282828">
+         <font>
+            <Font name="Calibri Bold" size="30.0" />
+         </font>
+      </Label>
+      <Label layoutX="965.0" layoutY="242.0" prefHeight="46.0" prefWidth="128.0" text="ON-DUTY" textFill="#282828">
+         <font>
+            <Font name="Calibri Bold" size="30.0" />
+         </font>
+      </Label>
+      <Button fx:id="sbt" layoutX="1402.0" layoutY="739.0" mnemonicParsing="false" onAction="#sbtsave" style="-fx-background-color: #282828;" text="SUBMIT" textFill="WHITE">
+         <font>
+            <Font name="Calibri Bold" size="20.0" />
+         </font>
+      </Button>
+      <Button fx:id="bkot" layoutX="12.0" layoutY="739.0" mnemonicParsing="false" onAction="#bkout" style="-fx-background-color: #282828;" text="BACK" textFill="WHITE">
+         <font>
+            <Font name="Calibri Bold" size="20.0" />
+         </font>
+      </Button>
+      <Label layoutX="455.0" layoutY="172.0" prefHeight="46.0" prefWidth="128.0" text="CLASS :" textFill="#282828">
+         <font>
+            <Font name="Calibri Bold" size="35.0" />
+         </font>
+      </Label>
+      <TextField fx:id="adcs" layoutX="579.0" layoutY="175.0" promptText="CLASS" style="-fx-background-color: TRANSPARENT; -fx-border-color: #282828; -fx-border-width: 0px 0px 2px 0px;">
+         <font>
+            <Font name="Calibri Bold" size="24.0" />
+         </font>
+      </TextField>
+      <Label fx:id="sumsg" layoutX="951.0" layoutY="190.0" prefHeight="35.0" prefWidth="456.0" textFill="#282828">
+         <font>
+            <Font name="Calibri Bold" size="29.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

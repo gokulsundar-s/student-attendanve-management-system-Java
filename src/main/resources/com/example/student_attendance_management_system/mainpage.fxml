@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Hyperlink?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="780.0" prefWidth="1380.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.student_attendance_management_system.mainpage_controller">
+   <children>
+      <ImageView fitHeight="828.0" fitWidth="1633.0" layoutX="-22.0" layoutY="2.0" pickOnBounds="true">
+         <image>
+            <Image url="@Admin.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="589.0" layoutY="385.0" prefHeight="58.0" prefWidth="141.0" text="MAIL ID :">
+         <font>
+            <Font name="Calibri Bold" size="35.0" />
+         </font>
+      </Label>
+      <TextField fx:id="un" layoutX="796.0" layoutY="382.0" promptText="MAIL ID" style="-fx-background-color: TRANSPARENT; -fx-border-color: #000000; -fx-border-width: 0PX 0PX 2PX 0PX;">
+         <font>
+            <Font name="Calibri Bold" size="25.0" />
+         </font>
+      </TextField>
+      <Label layoutX="540.0" layoutY="505.0" prefHeight="58.0" prefWidth="198.0" text="PASSWORD :">
+         <font>
+            <Font name="Calibri Bold" size="35.0" />
+         </font>
+      </Label>
+      <PasswordField fx:id="pw" layoutX="796.0" layoutY="506.0" promptText="PASSWORD" style="-fx-background-color: TRANSPARENT; -fx-border-color: #000000; -fx-border-width: 0PX 0PX 2PX 0PX;">
+         <font>
+            <Font name="Calibri Bold" size="25.0" />
+         </font>
+      </PasswordField>
+      <Button fx:id="goin" layoutX="755.0" layoutY="637.0" mnemonicParsing="false" onAction="#topage" style="-fx-background-color: #000000;" text="LOGIN" textFill="WHITE">
+         <font>
+            <Font name="Calibri Bold" size="30.0" />
+         </font>
+      </Button>
+      <Label fx:id="altmsg" layoutX="579.0" layoutY="624.0" prefHeight="35.0" prefWidth="499.0">
+         <font>
+            <Font name="Calibri Bold" size="30.0" />
+         </font>
+      </Label>
+      <Label layoutX="1161.0" layoutY="103.0" />
+      <Label layoutX="522.0" layoutY="11.0" text="KONGU ENGINEERING COLLEGE">
+         <font>
+            <Font name="Calibri Bold" size="40.0" />
+         </font>
+      </Label>
+      <Label layoutX="592.0" layoutY="63.0" text="PERUNDURAI, ERODE - 638060.">
+         <font>
+            <Font name="Calibri" size="30.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="118.0" fitWidth="160.0" layoutX="396.0" layoutY="11.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Icon.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="116.0" fitWidth="101.0" layoutX="1050.0" layoutY="5.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Icon2.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="364.0" layoutY="132.0" text="Student Attendance Management System">
+         <font>
+            <Font name="Barokah Signature Regular" size="25.0" />
+         </font>
+      </Label>
+      <Hyperlink fx:id="forget" layoutX="715.0" layoutY="715.0" onAction="#fpass" text="Forget Password?" textFill="#181818">
+         <font>
+            <Font name="Archivo Light Italic" size="25.0" />
+         </font>
+      </Hyperlink>
+   </children>
+</AnchorPane>
